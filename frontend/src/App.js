@@ -11,7 +11,7 @@ function App() {
     // Define the function to fetch data from the backend
     const fetchData = async () => {
       try {
-        const response = await axios.get('https://workouts-56vi.onrender.com'); // Replace with your Render backend URL
+        const response = await axios.get('https://workouts-56vi.onrender.com'); 
         setData(response.data);
       } catch (error) {
         console.error('Error fetching data:', error);
